@@ -1,32 +1,32 @@
 body{
-		background: #000 !important;
-		font: 14px 'Open Sans', sans-serif;
-		color: #ccc !important;
-	}
-	.container-fluid{
-		float: right !important;
-	}
-	.fu{
-		color:white;
-		font-weight: bold;
-	}
-	.izena01{
-		float:left !important;
-		padding: 10px 0 0 10px;
-		font-weight: bold;
-		font-size: 1.5em;
-	}
+ background: #000 !important;
+ font: 14px 'Open Sans', sans-serif;
+ color: #ccc !important;
+}
+.container-fluid{
+  float: right !important;
+}
+.fu{
+  color:white;
+  font-weight: bold;
+}
+.izena01{
+  float:left !important;
+  padding: 10px 0 0 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 #ezker{
-		float: left !important;
+  float: left !important;
 	}
 .intro{
-	margin-top:50px;
+  margin-top:50px;
 }
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto;
-	margin: 0 auto;
+  margin: 0 auto;
 }
 .container {
   padding-right: 15px;
@@ -34,22 +34,37 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
-	input{
-		font: 14px 'Open Sans', sans-serif;
-		background: #333;
-		margin: 0 10px;
-	}
-	a{
-		color: #D6D6D6;
-	}
-	a:hover{
-		color: #fff;
-	}
-	.small{
-		font-size: 0.9em;
-		margin-bottom: 2em;
-		color: #757575;
-	}
+input{
+  font: 14px 'Open Sans', sans-serif;
+  background: #333;
+  margin: 0 10px;
+}
+a{
+  color: #D6D6D6;
+}
+a:hover{
+  color: #fff;
+}
+.small{
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  color: #757575;
+}
+
+#cajasoltar{
+  width:500px;
+  height:300px;
+  margin:10px;
+  border:1px solid #c1c1c1;
+}
+#cajaimagenes{
+  width:320px;
+  margin:10px;
+  border:1px solid #c1c1c1;
+}
+#cajaimagenes > img{
+  padding:5px;
+}
 
 .glitch {
   color: white;
