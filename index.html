@@ -160,12 +160,12 @@ Glitch es el reciclaje, es familiar cercano del circuit bending, se genera desde
   
   <section id="pixelsortert">
     <div class="container pixelsorter">
-    	<h3>_::>Pixelsorter<::_</h3>
+    	<h3>_::> Pixelsorter <::_</h3>
       <p class="small text-center">Selecciona una imagen y juega con los parametros para modificar la imagen.
       Ninguna imagen se almacena en el servidor, todo ser realiza localmente</p>
       <p><input type="file" onchange="process(this)"></p>
 	<p><label><input type="checkbox" id="vertical" onchange="start()"> Vertical</label></p>
-	<p><label><input type="checkbox" id="invert" onchange="start()"> Invert</label></p>
+	<p><label><input type="checkbox" id="invert" onchange="start()"> Invertido</label></p>
 	<p id="slider">Threshold: <input type="range" id="threshold" min="0" max="255" value="80" onchange="this.nextSibling.innerHTML= this.value; start()"><span>80</span></p>
 	<canvas id="b" class="text-center"></canvas>
 	
