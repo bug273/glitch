@@ -157,9 +157,10 @@ Glitch es el reciclaje, es familiar cercano del circuit bending, se genera desde
   
   
   
-  <section id="cajasoltar">
+  <section id="pixelsortert">
     <div class="container">
-      <p class="text-center">Arrastra y suelta aqui una imagen</p>
+      <p class="small text-center">Selecciona una imagen y juega con los parametros para modificar la imagen.
+      Ninguna imagen se almacena en el servidor, todo ser realiza localmente</p>
       <p><input type="file" onchange="process(this)"></p>
 	<p><label><input type="checkbox" id="vertical" onchange="start()"> Vertical</label></p>
 	<p><label><input type="checkbox" id="invert" onchange="start()"> Invert</label></p>
@@ -167,7 +168,6 @@ Glitch es el reciclaje, es familiar cercano del circuit bending, se genera desde
 	<canvas id="b"></canvas>
 	
 <script type="text/javascript">
-	
 var b= document.getElementById('b');
 var c= b.getContext('2d');
 var threshold=0;
@@ -303,9 +303,7 @@ function findValueLess(pixels, row, val, start){
 
 
 </script>
-      <section id="cajaimagenes">
-    	
-      </section><!-- cajaimagen -->
+
       </div>
   </section><!-- pixel sorter -->
 
@@ -315,6 +313,7 @@ function findValueLess(pixels, row, val, start){
      <div class="container">
      	<h3>Extra</h3>
      	<p>El codigo del banner me lo encontré <a href="http://codepen.io/lbebber/pen/ypgql" target="_blank"> aquí</a>
+     	<p>El codigo del pixelsorter esta en </p><a href="http://feiss.be">aquí</a>. El codigo es de Diego F. Goberna.</p>
      <p>Unos cuantos videos interesantes:
       <ul>
       	<li><a href=" https://vimeo.com/169523280">https://vimeo.com/169523280</a></li>
